@@ -1,0 +1,42 @@
+# AI Code Assistant - závislosti
+# Python 3.11+
+
+# LangChain + LangGraph
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-ollama>=0.2.0
+langchain-community>=0.3.0
+
+# Vector DB
+chromadb>=0.5.0
+
+# HTTP klient pre Ollama
+requests>=2.31.0
+
+# Git integrácia
+gitpython>=3.1.40
+
+# SQL parser
+sqlglot>=23.0.0
+
+# Python AST (builtin, ale pridáme pre istotu)
+# ast - builtin
+
+# Utility
+rich>=13.0.0           # pekný terminal output (optional)
+click>=8.0.0           # CLI helper (optional)
+tqdm>=4.65.0           # progress bary pre dlhé operácie
+
+# Numpy pre vektor operácie
+numpy>=1.24.0
+
+# API server pre Open WebUI
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# Open WebUI
+open-webui>=0.5.0
+
+# Typy
+typing-extensions>=4.0.0
